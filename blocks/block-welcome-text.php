@@ -1,3 +1,3 @@
 <span>
-    <?php get_field('welcomefield') ?>
+    <?php block_field('welcomefield'); ?>
 </span>
