@@ -1,3 +1,1 @@
-<span>
-    <?php block_field('welcomefield'); ?>
-</span>
+<p><?php block_field('welcometext'); ?></p>
