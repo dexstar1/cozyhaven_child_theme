@@ -1,3 +1,8 @@
+
+<p <?php echo get_block_wrapper_attributes(); ?>>
+	<?php esc_html_e( 'Hero Video Block – hello from a dynamic block!', 'hero-video-block' ); ?>
+</p>
+
 <section class="listing-wrap">
     <div class="container">
         
@@ -11,9 +16,6 @@
 
                 <div class="agents-list-view">
 
-						<p <?php echo get_block_wrapper_attributes(); ?>>
-							<?php esc_html_e( 'Hero Video Block – hello from a dynamic block!', 'hero-video-block' ); ?>
-						</p>
                             <?php get_template_part('template-parts/realtors/agency/list'); ?>
 
                 </div><!-- listing-view -->
