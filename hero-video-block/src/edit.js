@@ -32,7 +32,10 @@ import './editor.scss';
 export default function Edit() {
 	return (
 		<p { ...useBlockProps() }>
-			{ __( 'Hero Video Block – hello from the editor!', 'hero-video-block' ) }
+			{ __(
+				'Hero Video Block – hello from the editor!',
+				'hero-video-block'
+			) }
 		</p>
 	);
 }
