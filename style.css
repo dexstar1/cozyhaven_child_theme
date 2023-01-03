@@ -109,7 +109,7 @@ form.wpcf7-form.init {
 }
 
 form.wpcf7-form p {
-    width: 100%;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
