@@ -10,3 +10,140 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Version: 1.0.0
 Text Domain: houzez-child
 */
+
+.p-80{
+	padding:80px;
+}
+.p-40{
+	padding: 40px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6{
+	margin-bottom:15px;
+}
+h1.h1{
+	font-size:2.9rem !important;
+}
+h1.h1_large{
+	font-size:3.5rem !important;
+	font-weight:bold;
+}
+h6.h6{
+	font-size: 14px !important;
+	line-height: 1.5;
+}
+.squeeze-page h4.h4{
+	width: 75%;
+}
+
+/* revamp starts here */
+.partner-item img {
+    height: 60px;
+    width: auto;
+		max-width: 100%;
+}
+button.btn.houzez-search-button.elementor-button {
+    height: 100%;
+}
+
+/* form styles */
+
+form.wpcf7-form.init {
+    display: flex;
+    flex-direction: row;
+}
+
+form.wpcf7-form p {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+}
+input.wpcf7-form-control, select.wpcf7-form-control {
+    height: 40px;
+    width: 100%;
+}input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {}
+
+label {
+    width: 47%;
+    color: #fff;
+}
+
+p label:nth-child(17) {
+    width: 100%;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    background-color: #68b04b;
+    color: #fff;
+    border: 1px solid #68b04b;
+    box-shadow: 5px 5px 5px #68b04bb5;
+    height: 50px;
+    border-radius: 5px;
+}
+.wpcf7-response-output {
+    color: #fff;
+    border: 2px solid #fff;
+}
+/* end of form styles */
+
+
+.blank_page .bt-content-wrap{
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.blank_page .\#yptpvq,
+.blank_page .article-page-wrap {
+    max-width: 100%;
+}
+
+.blank_page header, .blank_page footer{
+    display: none !important;
+}
+@media screen and (max-width:720px){
+	
+form.wpcf7-form.init {
+    display: flex;
+    flex-direction: row;
+}
+
+form.wpcf7-form p {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+label {
+    width: 100%;
+}
+	.p-80{
+	padding:20px;
+}
+.p-40{
+	padding: 20px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6{
+	margin-bottom:20px;
+}
+h1.h1{
+	font-size:2.4rem !important;
+	text-align:center;
+}
+	h4.h4{
+		text-align:center;
+	}
+h6.h6{
+	font-size: 14px !important;
+	line-height: 1.5;
+	text-align:center;
+}
+.squeeze-page h4.h4, .squeeze-page h1.h1, .squeeze-page h6.h6{
+	width: 100%;
+	text-align:center !important;
+}
+	.\#1bo3qu1 {
+    padding: 1rem !important;
+}
+}
